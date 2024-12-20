@@ -127,7 +127,7 @@
                         </div>
 
                         <el-divider class="divider" />
-                        <div v-if="ossData.id !== 0" style="margin-left: 20px">
+                        <div v-if="ossData.id !== 0" class="ml-5">
                             <el-form-item label="Endpoint">
                                 {{ ossData.varsJson['endpoint'] }}
                             </el-form-item>
